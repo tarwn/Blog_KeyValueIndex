@@ -1,0 +1,19 @@
+{
+  "name": "blog-leveldb-indexes",
+  "version": "1.0.0",
+  "description": "Examples for a LevelDB indexing blog post",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Eli Weinstock-Herman (@tarwn)",
+  "license": "MIT",
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "dependencies": {
+    "encoding-down": "^6.0.1",
+    "leveldown": "^4.0.1",
+    "levelup": "^4.0.0"
+  }
+}
