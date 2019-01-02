@@ -1,0 +1,25 @@
+{
+    "extends": "airbnb-base",
+    "env":{
+        "browser": false,
+        "node": true,
+        "es6": true
+    },
+    "globals": {
+        "describe": true,
+        "test": true,
+        "expect": true,
+        "io": true
+    },
+    "rules": {
+        "indent": ["error", 4, {"SwitchCase": 1}],  "// personal preference": "",
+        "linebreak-style": ["error", "windows"],    "// I use multiple environments": "",
+        "comma-dangle": ["error", "never"],         "// YAGNI": "",
+        "brace-style": ["error", "stroustrup"],     "// personal preference also": "",
+        "no-underscore-dangle": "off",              "// used to denote 'private' properties and functions": "",
+        "arrow-body-style": "off",                  "// freedom to use blocks when more readable instead of using ({ return ... })": "",
+        "no-else-return": "off",                    "// I find consistent indentation more readable": "",
+        "no-plusplus": "off",                       "// Only needed as ASI protection for folks allergic to semi-colons": "",
+        "no-mixed-operators": ["error", {"allowSamePrecedence": true}],     "// a + b - c is easy enough to understand": ""
+    }
+}
